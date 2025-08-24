@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+header, footer {
+  background: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  margin: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: darkblue;
+}
+
+section {
+  margin: 20px 0;
+}
+
+ul {
+  list-style-type: square;
+}
