@@ -10,6 +10,7 @@
   <header>
     <h1>Welcome to Squad Titans 🚀</h1>
     <p>We are frontend explorers, building cool projects together!</p>
+    <img src="images/team.jpg" alt="Our Squad Photo" width="300">
   </header>
 
   <nav>
@@ -27,29 +28,53 @@
 
     <section id="projects">
       <h2>Our Projects</h2>
-      <ul>
-        <li>Squad Website</li>
-        <li>Mini Frontend Challenges</li>
-      </ul>
+      <table border="1" cellpadding="8">
+        <tr>
+          <th>Project</th>
+          <th>Status</th>
+          <th>Tech Stack</th>
+        </tr>
+        <tr>
+          <td>Squad Website</td>
+          <td>In Progress</td>
+          <td>HTML, CSS</td>
+        </tr>
+        <tr>
+          <td>Mini Frontend Challenges</td>
+          <td>Planned</td>
+          <td>JS, GitHub</td>
+        </tr>
+      </table>
     </section>
 
     <section id="members">
       <h2>Meet the Squad</h2>
       <ul>
         <li><a href="members/alice.html">Alice</a></li>
-        <li><a href="members/bob.html">Bob</a></li>
-        <li><a href="#">Charlie (coming soon)</a></li>
+        <li><a href="#">Bob</a></li>
+        <li><a href="#">Charlie</a></li>
       </ul>
     </section>
 
     <section id="contact">
       <h2>Contact Us</h2>
-      <p>Email: squad.titans@example.com</p>
+      <form>
+        <label>Name: </label>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email: </label>
+        <input type="email" name="email" required><br><br>
+
+        <label>Message: </label><br>
+        <textarea name="message" rows="4" cols="30"></textarea><br><br>
+
+        <button type="submit">Send</button>
+      </form>
     </section>
   </main>
 
   <footer>
-    <p>💡 Squad Titans | Project Phase I</p>
+    <p>💡 Squad Titans | Project Phase 2</p>
   </footer>
 
 </body>
