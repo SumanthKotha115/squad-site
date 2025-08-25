@@ -48,7 +48,6 @@ nav {
   background: #06B6D4;   /* Cyan */
   padding: 15px;
   border-radius: 10px;
-  margin-top: 20px;
 }
 
 nav a {
@@ -184,13 +183,9 @@ footer {
   margin-top: 20px;
 }
 
-/* ------------------------- */
-/* SPECIAL STYLES FOR MEMBER PAGES */
-/* ------------------------- */
-
-/* Alex / Leader Page Theme */
+/* Leader Page Theme */
 .leader-page {
-  background: #fff8e1;  /* light amber background */
+  background: #fff8e1;
 }
 
 .leader-page header {
@@ -199,32 +194,6 @@ footer {
 
 .leader-page h2 {
   color: #06B6D4; /* Cyan */
-}
-
-/* Bio Section */
-.bio {
-  text-align: left;
-}
-
-/* Skills List */
-.skills ul {
-  margin-top: 10px;
-  list-style-type: square;
-}
-
-/* Favorite Tools Ordered List */
-.tools ol {
-  margin-top: 10px;
-  list-style-type: decimal;
-}
-
-/* Feedback Form */
-.feedback-form {
-  margin-top: 20px;
-}
-
-.feedback-form select {
-  padding: 10px;
 }
 
 /* Responsive */
