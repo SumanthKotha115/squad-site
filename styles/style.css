@@ -1,30 +1,182 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
   line-height: 1.6;
+  padding: 20px;
 }
 
-header, footer {
-  background: #f4f4f4;
-  padding: 10px;
+/* Layout blocks */
+header, nav, main, section, footer {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Header */
+header {
   text-align: center;
+  background: #4F46E5;   /* Indigo */
+  color: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(2,6,23,.08);
 }
 
+header img {
+  border-radius: 50%;
+  margin-top: 10px;
+  width: 150px;
+}
+
+/* Navigation */
 nav {
-  margin: 15px 0;
   text-align: center;
+  background: #06B6D4;   /* Cyan */
+  padding: 12px;
+  border-radius: 10px;
 }
 
 nav a {
-  margin: 0 10px;
   text-decoration: none;
-  color: darkblue;
+  margin: 0 12px;
+  font-weight: 600;
+  color: white;
+  transition: color 0.3s;
 }
 
+nav a:hover {
+  color: #F59E0B; /* Amber */
+}
+
+/* Sections */
 section {
-  margin: 20px 0;
+  background: #ffffff;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
-ul {
-  list-style-type: square;
+section h2 {
+  margin-bottom: 10px;
+  color: #4F46E5;
+  font-size: 1.5rem;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin: 6px 0;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th {
+  background: #4F46E5;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+input, textarea, select {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background: #4F46E5;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #F59E0B;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 12px;
+  background: #06B6D4;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Leader Page Theme (example: Alice) */
+.leader-page {
+  background: #fff8e1;
+}
+
+.leader-page header {
+  background: #F59E0B; /* Amber */
+}
+
+.leader-page h2 {
+  color: #06B6D4; /* Cyan */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  header {
+    padding: 20px;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  table, th, td {
+    font-size: 14px;
+  }
 }

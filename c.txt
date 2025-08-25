@@ -1,0 +1,11 @@
+git clone https://github.com/SumanthKotha115/squad-site.git
+cd squad-site
+
+
+
+git add .
+git commit -m "Added Bob’s profile page and updated dashboard"
+git push origin main
+
+
+git pull origin main
